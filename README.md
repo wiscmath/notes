@@ -5,3 +5,6 @@ Notes on mathematics.
 * Historic notes. 
 * Proof and implementation.
 * Implementation in Zig.
+
+# Notes
+* [Euler's Number](euler.md)
