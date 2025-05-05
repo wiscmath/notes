@@ -1,10 +1,10 @@
-Notes on mathematics.
+Notes on math algorithms.
 
 # Template
-* Details on the algorithm.
-* Historic notes. 
-* Proof and implementation.
-* Implementation in Zig.
+* Details and historic notes on the algorithm.
+* Implementation (in Python and Zig), accuracy and performance.
+* Python implementations are here in notebooks. Zig implementations are at https://github.com/wiscmath/zml. 
 
-# Notes
+
+# Algorithms
 * [Euler's Number](euler.md)
