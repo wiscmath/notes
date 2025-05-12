@@ -1,5 +1,6 @@
 import math
-from math import factorial
+import time
+import timeit
 
 
 def euler1():
@@ -28,8 +29,15 @@ def euler4(precision:int):
     return e
 
 if __name__ == '__main__':
-    print(euler1())
-    print(euler2(1000000))
-    print(euler3(10))
-    print(euler4(10))
+    t1 = time.perf_counter()
+    euler1()
+    t2 = time.perf_counter()
 
+    t3 = time.perf_counter()
+    euler2(1000000)
+    t4 = time.perf_counter()
+    print(f'euler1: {t2 - t1}')
+    print(f'euler2: {t4 - t3}')
+
+    t5 = timeit.timeit(stmt=euler1)
+    print(f'euler1: {t5}')
