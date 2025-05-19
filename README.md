@@ -65,3 +65,6 @@ easy-to-use, high-performance mathematical software from WiscMath.
   </tr>
 </tbody>
 </table>       
+
+## Reference Materials 
+* [Implementation and Synthesis of Math Library Functions](https://dl.acm.org/doi/pdf/10.1145/3632874)

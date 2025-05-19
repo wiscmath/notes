@@ -6,10 +6,10 @@ import timeit
 def euler1():
     return math.exp(1)
 
-def euler2(n:int):
+def euler2(n: int):
     return (1 + 1 / n) ** n
 
-def euler3(precision:int):
+def euler3(precision: int):
     e = 0
     n = 0
     while True:
@@ -20,7 +20,7 @@ def euler3(precision:int):
         n += 1
     return round(e, precision)
 
-def euler4(precision:int):
+def euler4(precision: int):
     e = 1
     fact = 1
     for i in range(1, precision + 1):
@@ -30,14 +30,22 @@ def euler4(precision:int):
 
 if __name__ == '__main__':
     t1 = time.perf_counter()
-    euler1()
+    r1 = euler1()
     t2 = time.perf_counter()
 
     t3 = time.perf_counter()
-    euler2(1000000)
+    r2 = euler2(1000000)
     t4 = time.perf_counter()
-    print(f'euler1: {t2 - t1}')
-    print(f'euler2: {t4 - t3}')
 
-    t5 = timeit.timeit(stmt=euler1)
-    print(f'euler1: {t5}')
+    t5 = time.perf_counter()
+    r3 = euler3(1000000)
+    t6 = time.perf_counter()
+
+    t7 = time.perf_counter()
+    r4 = euler4(1000000)
+    t8 = time.perf_counter()
+
+    print(f'euler1: {r1}, {t2 - t1}')
+    print(f'euler2: {r2}, {t4 - t3}')
+    print(f'euler3: {r3}, {t6 - t5}')
+    print(f'euler4: {r4}, {t8 - t7}')
