@@ -8,3 +8,7 @@
 * Given $n$ is an integer, the value of $(1 + \frac{1}{n})^n$ approaches $e$ as $n$ s n approaches infinity.
 * Given $n$ is an integer, the value of $\displaystyle\sum_{i=0}^{\infty} \frac{1}{i!}$ = $\frac{1}{0!} + \frac{1}{1!}+ \frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+...+\frac{1}{n!}+...$
 
+## References
+* https://www.mathsisfun.com/numbers/e-eulers-number.html
+* https://www.mathnasium.com/blog/what-is-eulers-number-in-math
+
