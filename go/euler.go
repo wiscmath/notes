@@ -10,14 +10,14 @@ func euler2(n int) float64 {
 	return math.Pow(1+1/float64(n), float64(n))
 }
 
-func euler3(precision uint64) float64 {
+func euler3(iterations uint64) float64 {
 	var n uint64
 	var e float64
 
 	for {
 		term := 1 / float64(factorial(n))
 		e += term
-		if n > precision {
+		if n > iterations {
 			break
 		}
 		n += 1

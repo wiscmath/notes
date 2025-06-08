@@ -10,75 +10,12 @@ easy-to-use, high-performance mathematical software from WiscMath.
 
 ## Algorithm Implementations
 
-<table><thead>
-  <tr>
-    <th>Algorithm</th>
-    <th>Implementation</th>
-    <th>Result</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td rowspan="9">Euler</td>
-    <td rowspan="3">Python</td>
-    <td>n1 = 1</td>
-  </tr>
-  <tr>
-    <td>n2 = 2</td>
-  </tr>
-  <tr>
-    <td>n3 = 3</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Go</td>
-    <td>n4 = 4</td>
-  </tr>
-  <tr>
-    <td>n5 = 5</td>
-  </tr>
-  <tr>
-    <td>n6 = 6</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Zig</td>
-    <td>n7 = 7</td>
-  </tr>
-  <tr>
-    <td>n8 = 8</td>
-  </tr>
-  <tr>
-    <td>n9 = 9</td>
-  </tr>
-  <tr>
-    <td rowspan="6">Archimedes's Constant</td>
-    <td rowspan="2">Python</td>
-    <td>n10 = 10</td>
-  </tr>
-  <tr>
-    <td>n11 = 11</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Go</td>
-    <td>n12 = 12</td>
-  </tr>
-  <tr>
-    <td>n13 = 13</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Zig</td>
-    <td>n14 = 14</td>
-  </tr>
-  <tr>
-    <td>n15 = 15</td>
-  </tr>
-</tbody>
-</table>
-
 <table>
 <thead>
   <tr>
     <th>Algorithm</th>
-    <th>Implementation</th>
-    <th>Result</th>
+    <th>Implementations</th>
+    <th>Results</th>
   </tr>
 </thead>
 <tbody>
