@@ -35,7 +35,7 @@ easy-to-use, high-performance mathematical software from WiscMath.
   <tr>
     <td><em>euler2</em>, 42.87 <em>ns/op</em></td>
   </tr>
-   <tr><td>n6 = 6</td></tr>
+   <tr><td><em>euler3</em>, 7562 <em>ns/op</em></td></tr>
   <tr>
     <td rowspan="3"><a href="https://github.com/wiscmath/zml/blob/main/src/euler.zig">euler.zig(zml)</a></td>
     <td>n7 = 7</td>

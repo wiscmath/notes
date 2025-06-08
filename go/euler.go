@@ -1,6 +1,8 @@
 package main
 
-import "math"
+import (
+	"math"
+)
 
 func euler1() float64 {
 	return math.Exp(1.0)
@@ -15,7 +17,7 @@ func euler3(iterations uint64) float64 {
 	var e float64
 
 	for {
-		term := 1 / float64(factorial(n))
+		term := float64(1) / float64(factorial(n))
 		e += term
 		if n > iterations {
 			break
@@ -26,9 +28,9 @@ func euler3(iterations uint64) float64 {
 }
 
 func factorial(n uint64) (result uint64) {
-	if n > 0 {
-		result = n * factorial(n-1)
-		return result
+
+	if n == 0 || n == 1 {
+		return 1
 	}
-	return 1
+	return n * factorial(n-1)
 }
