@@ -2,6 +2,7 @@ package main
 
 import (
 	"math"
+	"math/big"
 )
 
 func euler1() float64 {
@@ -33,4 +34,12 @@ func factorial(n uint64) (result uint64) {
 		return 1
 	}
 	return n * factorial(n-1)
+}
+
+func factorial2(n big.Int) (result *big.Int) {
+	if n.Cmp(big.NewInt(0)) == 0 || n.Cmp(big.NewInt(1)) == 0 {
+		return big.NewInt(1)
+	}
+	sub := n.Sub(&n, big.NewInt(1))
+	return n.Mul(&n, factorial2(*sub))
 }

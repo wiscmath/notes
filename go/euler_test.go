@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/big"
 	"testing"
 )
 
@@ -12,7 +13,8 @@ func TestEuler(t *testing.T) {
 }
 
 func TestFact(t *testing.T) {
-	fmt.Println(float64(factorial(10)))
+	fmt.Println(factorial(4))
+	fmt.Println(factorial2(*big.NewInt(4)))
 }
 
 func BenchmarkEuler1(b *testing.B) {
